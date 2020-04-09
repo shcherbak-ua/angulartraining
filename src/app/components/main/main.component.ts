@@ -14,7 +14,7 @@ export class MainComponent implements OnInit {
   ngOnInit() {
   }
 
-  exampleMethodParent($event) {
+  exampleMethodParent($event: string) {
     this.exampleParent = $event;
   }
 }
